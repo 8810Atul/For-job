@@ -1,0 +1,162 @@
+ 
+ div{
+    float: left;
+}
+header{
+    width:100%;
+    height:100%;
+    background-image: url( pics/IMG_20230211_161341_212.jpg),url(pics/8k1.jpg);
+    background-size:50% 100%,cover;
+    background-position: right,center;
+    background-repeat: no-repeat,no-repeat;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+.logo{
+    color:white;
+    font-size: 50px;
+    padding-left:px;
+    animation-name: an1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.menu{
+    color:white;
+    Text-decoration:none;
+    padding:10px 20px;
+    margin:5px;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.menu{
+    margin: right 100px;
+    color: rgb(249, 240, 255);
+}
+nav{
+    width:100%;
+    height:70px;
+    display:flex;
+
+
+}
+.logo Span{
+    color:#e74c3c
+}
+.menu a:hover{
+    background:#E74C3C;
+    transition: 0.4;
+}
+.text{
+    color:white;
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 450px;
+}
+.Text h1{
+    font-size: 50px;
+    margin:10px 0px;
+}
+.text p{
+    font-size: 25px;
+
+}
+.c-btn{
+    background-color: #E74C3C;
+    padding:12px;
+    margin-top:20px;
+    animation-name: an2;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+#about{
+    padding:100px 50px;
+
+}
+.section-info{
+    font-weight:bold;
+    text-align:center;
+    margin-left: 45%;
+}
+.section-info h1{
+    font-size: 25px;
+}
+.section-info p{
+    font-size: 25px;
+    color:#e74c3c;
+}
+.r1{
+    width:100%;
+
+}
+.part1{
+    width:50%;
+   
+}
+.part2{
+    width:50%;
+    text-align: right;
+    margin-top:10%;
+    text-align: justify;
+}
+.about-right-col{
+    font-size: 20px;
+    text-align: justify;
+}
+#skills{
+    padding:100px 50px;
+    
+}
+.m:hover{
+    width:100%;
+    background-color: #b5a3a1;
+    box-shadow:5px 5PX 5px;
+
+
+}
+
+.m1{
+    width:50%;
+    color:rgb(182, 133, 117);
+    font-size: 34;
+}
+.m2{
+    width: 50%;
+    color: rgb(106, 68, 68);
+    text-align: right;
+}
+.X{
+    background-color: rgb(160, 97, 97);
+    width: 100%;
+    padding: 2px;
+    background-blend-mode: color;
+}
+.h2span{
+    color:blue;
+}
+#float-end{
+    height: 200%;
+    width:200%;
+    margin: left 50%;;
+}
+.re{
+    font-size: larger;
+     
+    
+}
+.uv{
+    color:#E74C3C;
+    text-align: center;
+}
+
+@keyframes an1{
+    0%{transform:rotate(0deg);}
+    100%
+    {transform:rotate(360deg)}
+}
+@keyframes an2{
+    0%{background-color: #E74C3C;}
+    100%
+    {background-color: aqua;}
+}
